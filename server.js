@@ -5,7 +5,7 @@ var http = require('http')
   , amazon_client_id = process.env.AMAZON_CLIENT_ID
   , app_domain = process.env.APP_DOMAIN
   , aws_role_arn = process.env.AWS_ROLE_ARN
-  , s3_bucket_name = "company-images"
+  , s3_bucket_name = "company-images-erv3g53"
   , port = process.env.PORT || 5000;
 
 app.engine('html', swig.renderFile);
